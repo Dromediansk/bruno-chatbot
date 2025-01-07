@@ -1,11 +1,11 @@
 # Bruno Chatbot
 
-A customer support chatbot built with OpenAI, Nuxt 3, and TypeScript.
+A specialized customer support chatbot trained on ZeroToMastery academy content. Built with OpenAI, Nuxt 3, and TypeScript, it helps answer common questions about ZeroToMastery courses, learning paths, and resources.
 
 ## Features
 
 - Real-time chat interface
-- OpenAI Assistant API integration
+- OpenAI Assistant API integration with ZeroToMastery domain knowledge
 - TypeScript support
 - Responsive design with Tailwind CSS
 - Persistent chat sessions with cookies
