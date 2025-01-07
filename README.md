@@ -1,75 +1,41 @@
-# Nuxt Minimal Starter
+# Bruno Chatbot
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A customer support chatbot built with OpenAI, Nuxt 3, and TypeScript.
+
+## Features
+
+- Real-time chat interface
+- OpenAI Assistant API integration
+- TypeScript support
+- Responsive design with Tailwind CSS
+- Persistent chat sessions with cookies
+
+## Prerequisites
+
+- Node.js 18 or higher
+- OpenAI API key
+- OpenAI Assistant ID
 
 ## Setup
 
-Make sure to install dependencies:
+1. Clone the repository
+2. Install dependencies:
 
-```bash
-# npm
+```sh
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+Create .env file in the root directory with your OpenAI credentials:
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```sh
+OPENAI_API_KEY=your_api_key_here
+OPENAI_ASSISTANT_ID=your_assistant_id_here
 ```
 
-## Production
+## Tech Stack
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+OpenAI API
+Nuxt 3
+Vue 3
+TypeScript
+Tailwind CSS
